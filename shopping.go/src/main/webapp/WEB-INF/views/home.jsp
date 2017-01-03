@@ -3,10 +3,27 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Shopping.go</title>
+<title>Home</title>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ <link rel="stylesheet" href="Resource/bootstrap/css/bootstrap.min.css">
+  <script src="Resource/bootstrap/js/jquery.min.js"></script>
+  <script src="Resource/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+</script>
+  <style type="text/css">
+ 
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+  
+  </style>
 </head>
 <body>
+<div style="background-color:pink">
 <jsp:include page="index.jsp"></jsp:include>
 <div class="container">
 <h1>Big Deals</h1>
@@ -58,7 +75,7 @@
   </div>     
 </div>
  <div class="container">
-  <h2>You Recently Watched</h2>
+  <h2>Hot Offers</h2>
             
   <div class="row">
     <div class="col-md-2">
@@ -89,5 +106,7 @@
   </div>
 </div>
 <jsp:include page="footer.jsp"></jsp:include>
+<script type="text/javascript">
+  </script>
 </body>
-</html>
+</html>+

@@ -21,22 +21,20 @@
 <div class="container">
 <div class="row" style="margin-top:40px;">
 <div class="col-md-4 col-md-offset-4">
-	<h2 style="color:dimgray; text-align: center">Login</h2>
+	<h2 style="color:dimgray; text-align: center">Register Here</h2>
   
-  <form method="POST" action="" accept-charset="UTF-8" role="form" class="form-signin"><input name="_token" type="hidden" value="">
+  <form method="POST" commandName="cust" action="./addCustomer" accept-charset="UTF-8" role="form" class="form-signin">
+  <input name="_token" type="hidden" value="">
 	<fieldset>
-       <input class="form-control middle" placeholder="E-mail Id" name="email" type="text">
-       <br />
-	   <input class="form-control middle" placeholder="Password" name="password" type="password">
-    <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-10">
-        <div class="checkbox">
-          <label><input type="checkbox"> Remember me</label>
-        </div>
-      </div>
-    </div>
-    <div style="padding-left: 30px; padding-bottom: 10px;"></div>
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+       <input class="form-control middle" placeholder="User name" name="username" type="text">
+       
+	   <input class="form-control middle" placeholder="Email Id" name="emailid" type="text">
+<input class="form-control middle" placeholder="Password" name="password" type="password">
+<input class="form-control middle" placeholder="Confirm Password" name="conPassword" type="password">
+
+    
+    <div style="padding-left: 15px; padding-bottom: 10px;"></div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Signup</button>
     </fieldset>
   </form>
 </div>
